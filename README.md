@@ -14,8 +14,6 @@ Traditional recommenders depend only on text. This project augments retrieval wi
 <img width="485" height="375" alt="architecture_diagram" src="https://github.com/user-attachments/assets/8e5b810a-4f8d-4ba8-a350-bb58e2029ab2" />
 
 
-**Flow (high-level)**
-
 1. **Amazon S3** holds menu images + metadata (CSV).  
 2. **Claude Sonnet (Multimodal)** summarizes images (captions, attributes).  
 3. **Titan Text Embeddings v2** encodes text/image summaries → vectors.  
