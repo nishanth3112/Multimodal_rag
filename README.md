@@ -82,7 +82,7 @@ Traditional recommenders depend only on text. This project augments retrieval wi
 ├─ reference-images/               # Support images for README/app
 ├─ requirements.txt
 └─ README.md
-
+```
 ---
 
 ### **For macOS / Linux**
@@ -91,3 +91,77 @@ cd /path/to/project
 python3.10 -m venv myenv
 source myenv/bin/activate
 pip install -r requirements.txt
+```
+
+### If Multiple Python Versions Installed
+```bash
+py -3.10 -m venv myenv
+myenv\Scripts\activate
+pip install -r requirements.txt
+```
+--- 
+
+## 4️⃣ 🧰 **AWS CLI — Configure Credentials**
+
+Install AWS CLI if not available and run:
+```bash
+aws configure
+```
+
+**Provide:**
+- **AWS Access Key ID**  
+- **AWS Secret Access Key**  
+- **Default region name:** `us-east-1`  
+- **Output format:** `json`  
+
+💡 **Tip:**  
+Create your access key under:  
+**IAM → Users → Security credentials → Access keys**  
+Keep your credentials secure and never commit them to GitHub.  
+
+---
+
+## 5️⃣ ▶️ **Run the Streamlit App (Local)**
+
+Activate your environment and execute:
+
+```bash
+streamlit run llm_app.py
+```
+
+- Opens automatically at: **http://localhost:8501**  
+- Try a text query → *“high-protein vegetarian bowls under $15”*  
+- Or upload an image to find visually similar dishes and recommendations.  
+
+---
+
+## ⚙️ **Configuration Tips**
+
+- Ensure your **AWS region** matches your model access (e.g., `us-east-1`).  
+- Update bucket details in `utils.py` or `.env`.  
+- If FAISS index doesn’t exist, it will auto-generate on the first run.  
+  *(This may take time — reuse it later for faster startup.)*  
+
+---
+
+## 🛠️ **Troubleshooting**
+
+| **Issue** | **Resolution** |
+|------------|----------------|
+| **Model access pending** | Wait until **Granted** in Bedrock. |
+| **FAISS import error** | Verify `faiss-cpu` (or `faiss-gpu`) version matches OS/Python. |
+| **AccessDenied (S3)** | Ensure IAM permissions: `s3:GetObject`, `s3:ListBucket`. |
+| **Slow first run** | Caching embeddings reduces load time later. |
+| **Port blocked (EC2)** | Open port **8501** in the Security Group. |
+
+---
+
+## 🎓 **Learning Takeaways**
+
+- Build multimodal RAG pipelines combining **text + image** data.  
+- Store, preprocess, and retrieve structured data using **AWS S3**.  
+- Generate vector embeddings using **Titan Embeddings**.  
+- Use **Claude Sonnet** for multimodal reasoning and conversational output.  
+- Deploy intelligent apps using **Streamlit** and **AWS EC2**.  
+- Gain hands-on exposure to **FAISS**, **LangChain**, and **Bedrock** integrations.  
+
