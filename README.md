@@ -156,7 +156,7 @@ streamlit run llm_app.py
 
 ---
 
-## 🎓 **Learning Takeaways**
+## 🎓 **Project Takeaways**
 
 - Build multimodal RAG pipelines combining **text + image** data.  
 - Store, preprocess, and retrieve structured data using **AWS S3**.  
