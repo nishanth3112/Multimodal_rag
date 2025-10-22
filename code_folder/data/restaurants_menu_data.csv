@@ -1,0 +1,51 @@
+restaurant_id,restaurant_name,cuisine,menu_item_id,menu_item_name,ingredients,protein,carbs,fats,calories,dietary_warnings,vegetarian_or_nonveg,image_path,average_rating,price,serves
+R001,La Bella Italia,Italian,R001M001,Margherita Pizza,"tomatoes, mozzarella cheese, basil, olive oil, flour, yeast",12,30,15,350,,Vegetarian,images/R001/R001M001.png,4.5,12,"""1-2"""
+R001,La Bella Italia,Italian,R001M002,Spaghetti Carbonara,"spaghetti, eggs, cheese, pancetta, black pepper",18,40,20,400,"Contains eggs, Contains dairy",Non-Vegetarian,images/R001/R001M002.png,4,10,"""1-2"""
+R001,La Bella Italia,Italian,R001M003,Lasagna,"pasta sheets, ground beef, ricotta cheese, mozzarella, tomato sauce",25,35,22,450,Contains dairy,Non-Vegetarian,images/R001/R001M003.png,4.6,16,"""1-2"""
+R001,La Bella Italia,Italian,R001M004,Bruschetta,"bread, tomatoes, garlic, basil, olive oil",4,15,5,120,,Vegetarian,images/R001/R001M004.png,3.8,8,1
+R001,La Bella Italia,Italian,R001M005,Tiramisu,"ladyfingers, coffee, mascarpone cheese, cocoa powder, sugar, eggs",6,25,15,300,"Contains dairy, Contains eggs",Vegetarian,images/R001/R001M005.png,3.1,12,1
+R002,Dragon Palace,Chinese,R002M001,Kung Pao Chicken,"chicken, peanuts, bell peppers, chili peppers, soy sauce",20,10,18,300,Contains peanuts,Non-Vegetarian,images/R002/R002M001.png,4.6,8,"""1-2"""
+R002,Dragon Palace,Chinese,R002M002,Sweet and Sour Pork,"pork, pineapple, bell peppers, vinegar, sugar",18,20,15,350,,Non-Vegetarian,images/R002/R002M002.png,2.9,15,"""1-2"""
+R002,Dragon Palace,Chinese,R002M003,Vegetable Spring Rolls,"cabbage, carrots, bell peppers, spring roll wrappers",4,10,5,150,,Vegetarian,images/R002/R002M003.png,4.2,6,"""1-2"""
+R002,Dragon Palace,Chinese,R002M004,Beef and Broccoli,"beef, broccoli, soy sauce, garlic",22,12,10,320,,Non-Vegetarian,images/R002/R002M004.png,3.2,10,"""1-2"""
+R002,Dragon Palace,Chinese,R002M005,Fried Rice,"rice, eggs, peas, carrots, soy sauce",8,30,10,290,Contains eggs,Vegetarian,images/R002/R002M005.png,4.3,7,"""1-2"""
+R003,Spice Route,Indian,R003M001,Butter Chicken,"chicken, tomato, cream, butter, spices",25,15,25,450,Contains dairy,Non-Vegetarian,images/R003/R003M001.png,4.8,10,"""1-2"""
+R003,Spice Route,Indian,R003M002,Palak Paneer,"spinach, paneer, cream, spices",15,10,20,350,Contains dairy,Vegetarian,images/R003/R003M002.png,3.8,6,"""1-2"""
+R003,Spice Route,Indian,R003M003,Biryani,"rice, vegetables, chicken, spices",20,50,15,400,,Non-Vegetarian,images/R003/R003M003.png,4.6,5,"""1-2"""
+R003,Spice Route,Indian,R003M004,Samosa,"potatoes, peas, flour, spices",5,20,10,200,,Vegetarian,images/R003/R003M004.png,4.5,2,1
+R003,Spice Route,Indian,R003M005,Gulab Jamun,"milk solids, sugar, flour",5,30,10,250,Contains dairy,Vegetarian,images/R003/R003M005.png,3,6,1
+R004,Sakura Sushi,Japanese,R004M001,California Roll,"crab, avocado, cucumber, rice, seaweed",10,25,5,200,,Non-Vegetarian,images/R004/R004M001.png,4.5,5,"""1-2"""
+R004,Sakura Sushi,Japanese,R004M002,Spicy Tuna Roll,"tuna, avocado, cucumber, rice, spicy mayo",15,20,8,220,,Non-Vegetarian,images/R004/R004M002.png,4.7,8,"""1-2"""
+R004,Sakura Sushi,Japanese,R004M003,Tempura,"shrimp, vegetables, flour, egg, panko breadcrumbs",10,15,10,180,Contains eggs,Non-Vegetarian,images/R004/R004M003.png,2.7,12,"""1-2"""
+R004,Sakura Sushi,Japanese,R004M004,Miso Soup,"tofu, seaweed, green onions, miso paste",5,6,2,70,,Vegetarian,images/R004/R004M004.png,4.4,10,1
+R004,Sakura Sushi,Japanese,R004M005,Matcha Ice Cream,"milk, cream, sugar, matcha powder",4,20,10,180,Contains dairy,Vegetarian,images/R004/R004M005.png,4.8,5,1
+R005,Fiesta Mexicana,Mexican,R005M001,Tacos al Pastor,"pork, pineapple, onions, cilantro, tortillas",18,20,12,280,,Non-Vegetarian,images/R005/R005M001.png,3.8,4,1
+R005,Fiesta Mexicana,Mexican,R005M002,Guacamole,"avocado, lime, onions, tomatoes, cilantro",3,10,15,160,,Vegetarian,images/R005/R005M002.png,4.5,6,1
+R005,Fiesta Mexicana,Mexican,R005M003,Quesadilla,"tortilla, cheese, chicken",15,25,12,320,Contains dairy,Non-Vegetarian,images/R005/R005M003.png,3.4,8,1
+R005,Fiesta Mexicana,Mexican,R005M004,Churros,"flour, sugar, cinnamon, oil",2,25,8,200,,Vegetarian,images/R005/R005M004.png,4.6,6,1
+R005,Fiesta Mexicana,Mexican,R005M005,Enchiladas,"tortillas, chicken, enchilada sauce, cheese",20,30,15,380,Contains dairy,Non-Vegetarian,images/R005/R005M005.png,4.8,5,1
+R006,Pizza Paradise,Pizza,R006M001,Margherita Pizza,"tomatoes, mozzarella cheese, basil, olive oil, flour, yeast",12,30,15,350,"Contains gluten, dairy",Vegetarian,images/R006/R006M001.png,4.5,12,"""1-2"""
+R006,Pizza Paradise,Pizza,R006M002,Pepperoni Pizza,"pepperoni, mozzarella cheese, tomato sauce, flour",15,35,20,400,"Contains gluten, dairy",Non-Vegetarian,images/R006/R006M002.png,4.1,14,"""1-2"""
+R006,Pizza Paradise,Pizza,R006M003,Hawaiian Pizza,"ham, pineapple, mozzarella cheese, tomato sauce, flour",14,40,18,380,"Contains gluten, dairy",Non-Vegetarian,images/R006/R006M003.png,3.8,13,"""1-2"""
+R006,Pizza Paradise,Pizza,R006M004,Veggie Pizza,"bell peppers, onions, mushrooms, olives, mozzarella cheese, flour",12,40,12,360,"Contains gluten, dairy",Vegetarian,images/R006/R006M004.png,4.9,11,"""1-2"""
+R006,Pizza Paradise,Pizza,R006M005,BBQ Chicken Pizza,"chicken, BBQ sauce, onions, cilantro, mozzarella cheese, flour",18,35,15,420,"Contains gluten, dairy",Non-Vegetarian,images/R006/R006M005.png,4,15,"""1-2"""
+R007,Green Leaf,Vegan,R007M001,Vegan Caesar Salad,"romaine lettuce, vegan dressing, croutons, almond parmesan",5,15,10,180,,Vegetarian,images/R007/R007M001.png,3.8,10,1
+R007,Green Leaf,Vegan,R007M002,Vegan Burger,"plant-based patty, lettuce, tomato, vegan mayo, bun",20,30,15,350,,Vegetarian,images/R007/R007M002.png,3.6,12,1
+R007,Green Leaf,Vegan,R007M003,Vegan Sushi,"nori, sushi rice, avocado, cucumber, vegan cream cheese",5,40,5,200,,Vegetarian,images/R007/R007M003.png,4.2,14,1
+R007,Green Leaf,Vegan,R007M004,Vegan Chili,"beans, tomatoes, corn, vegan meat crumbles, spices",15,30,10,300,,Vegetarian,images/R007/R007M004.png,4.8,11,"""1-2"""
+R007,Green Leaf,Vegan,R007M005,Vegan Pizza,"dough, vegan cheese, vegan soya sausage, onions, bell peppers",12,35,10,320,Contains gluten,Vegetarian,images/R007/R007M005.png,4.5,13,"""1-2"""
+R008,Burger Hub,Fast Food,R008M001,Classic Cheeseburger,"beef patty, cheese, lettuce, tomato, pickles, bun",25,30,20,450,"Contains gluten, dairy",Non-Vegetarian,images/R008/R008M001.png,4.6,8,1
+R008,Burger Hub,Fast Food,R008M002,Vegan Burger,"plant-based patty, avocado, lettuce, tomato, vegan bun",18,40,15,400,Contains gluten,Vegetarian,images/R008/R008M002.png,4.5,9,1
+R008,Burger Hub,Fast Food,R008M003,Bacon Burger,"beef patty, bacon, cheddar cheese, BBQ sauce, bun",30,30,25,500,"Contains gluten, dairy",Non-Vegetarian,images/R008/R008M003.png,4.7,10,1
+R008,Burger Hub,Fast Food,R008M004,Loaded Fries,"fries, cheese, bacon, green onions",10,45,25,420,Contains dairy,Non-Vegetarian,images/R008/R008M004.png,3.9,7,"""1-2"""
+R008,Burger Hub,Fast Food,R008M005,Chicken Sandwich,"chicken breast, lettuce, tomato, mayo, bread",25,35,18,410,Contains gluten,Non-Vegetarian,images/R008/R008M005.png,3.8,8,1
+R009,Sandwich Corner,Sandwiches,R009M001,Turkey Club Sandwich,"turkey, bacon, lettuce, tomato, mayo, bread",20,30,10,360,Contains gluten,Non-Vegetarian,images/R009/R009M001.png,4.5,8,1
+R009,Sandwich Corner,Sandwiches,R009M002,Veggie Sandwich,"lettuce, tomato, cucumbers, peppers, hummus, whole grain bread",10,40,5,250,Contains gluten,Vegetarian,images/R009/R009M002.png,4.4,7,1
+R009,Sandwich Corner,Sandwiches,R009M003,Chicken Pesto Sandwich,"chicken, pesto sauce, mozzarella, arugula, ciabatta",25,35,20,450,"Contains gluten, dairy",Non-Vegetarian,images/R009/R009M003.png,4.7,9,1
+R009,Sandwich Corner,Sandwiches,R009M004,Italian Sub,"salami, ham, pepperoni, provolone, lettuce, tomato, Italian dressing, hoagie roll",22,35,25,480,"Contains gluten, dairy",Non-Vegetarian,images/R009/R009M004.png,4.6,10,1
+R009,Sandwich Corner,Sandwiches,R009M005,BLT Sandwich,"bacon, lettuce, tomato, bread",12,28,15,320,Contains gluten,Non-Vegetarian,images/R009/R009M005.png,4.8,6,1
+R010,Dakshin Delights,South Indian,R010M001,Masala Dosa,"dosa batter, potatoes, mustard seeds, turmeric, curry leaves",6,60,10,300,Contains mustard,Vegetarian,images/R010/R010M001.png,4.7,3,1
+R010,Dakshin Delights,South Indian,R010M002,Idli Sambar,"rice, urad dal, carrots, tomatoes, tamarind",8,40,5,250,,Vegetarian,images/R010/R010M002.png,4.5,4,"""1-2"""
+R010,Dakshin Delights,South Indian,R010M003,Vada Sambar,"urad dal, curry leaves, coconut chutney, tamarind",12,30,15,350,,Vegetarian,images/R010/R010M003.png,4.6,2,"""1-2"""
+R010,Dakshin Delights,South Indian,R010M004,Pongal,"rice, moong dal, ghee, cashews, cumin, black pepper",10,45,12,400,"Contains nuts, dairy",Vegetarian,images/R010/R010M004.png,4.8,5,"""1-2"""
+R010,Dakshin Delights,South Indian,R010M005,Uttapam,"rice batter, onions, tomatoes, green chilies",9,50,8,280,,Vegetarian,images/R010/R010M005.png,4.5,3,"""1-2"""
