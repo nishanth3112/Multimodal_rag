@@ -4,9 +4,11 @@
 ![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock-orange)
 ![FAISS](https://img.shields.io/badge/VectorDB-FAISS-green)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
-![S3](https://img.shields.io/badge/Storage-AWS%20S3-lightgrey)
+![Amazon S3](https://img.shields.io/badge/Storage-Amazon%20S3-lightgrey)
 ![Claude Sonnet](https://img.shields.io/badge/Model-Claude%20Sonnet-yellow)
-![Titan Embeddings](https://img.shields.io/badge/Embeddings-Titan%20v2-purple)
+![Titan Embeddings](https://img.shields.io/badge/Embeddings-Titan%20Text%20v2-purple)
+![LangChain](https://img.shields.io/badge/Framework-LangChain-lightblue)
+![RAG](https://img.shields.io/badge/Pipeline-Retrieval--Augmented--Generation-brown)
 
 A production-style, portfolio-ready implementation of a **Multimodal Retrieval-Augmented Generation (RAG)** recommender that understands **text + images** to deliver **personalized, context-aware food recommendations** for a restaurant aggregator use-case.
 
