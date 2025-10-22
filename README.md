@@ -7,7 +7,6 @@
 ![S3](https://img.shields.io/badge/Storage-AWS%20S3-lightgrey)
 ![Claude Sonnet](https://img.shields.io/badge/Model-Claude%20Sonnet-yellow)
 ![Titan Embeddings](https://img.shields.io/badge/Embeddings-Titan%20v2-purple)
-![License](https://img.shields.io/badge/License-Educational-blue)
 
 A production-style, portfolio-ready implementation of a **Multimodal Retrieval-Augmented Generation (RAG)** recommender that understands **text + images** to deliver **personalized, context-aware food recommendations** for a restaurant aggregator use-case.
 
