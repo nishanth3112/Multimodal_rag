@@ -11,8 +11,8 @@ Traditional recommenders depend only on text. This project augments retrieval wi
 ---
 
 ## 🏗️ Architecture
+<img width="485" height="375" alt="architecture_diagram" src="https://github.com/user-attachments/assets/8e5b810a-4f8d-4ba8-a350-bb58e2029ab2" />
 
-> **Place your architecture diagram image here** (e.g., `![Architecture](./docs/architecture.png)`)
 
 **Flow (high-level)**
 
@@ -68,57 +68,26 @@ Traditional recommenders depend only on text. This project augments retrieval wi
 
 ## 📦 Project Structure
 
-
----
-
-## 🧭 Prerequisites
-
-- Active **AWS account** with permissions for **Bedrock** + **S3**.  
-- **AWS CLI** installed and configured locally.  
-- Python **3.10.4** available on your machine.  
-- (Optional) EC2 access for cloud deployment.
-
----
-
-## 1) 🔑 Request Model Access on **AWS Bedrock**
-
-1. Log in to the **[AWS Management Console](https://aws.amazon.com/console)**.  
-2. Search **“Bedrock”** → **Get Started**.  
-3. Left nav → **Manage model access**.  
-4. Select these models (ensure your region supports them, e.g., `us-east-1`):
-   - **Titan Text Embeddings v2**  
-   - **Claude Sonnet (Multimodal)**
-5. Click **Request model access** and wait for status to become **Granted**.
-
-> _Screenshot placeholders (optional):_  
-> `![Bedrock Getting Started](reference-images/aws-bedrock/1.png)`  
-> `![Manage Model Access](reference-images/aws-bedrock/2.png)`
-
----
-
-## 2) 🗂️ Data Setup — S3 or Local
-
-### A) Using **Amazon S3**
-1. Open **S3** → **Create bucket** (unique name, correct region).  
-2. **Upload**:
-   - `restaurants_menu_data.csv`
-   - `menu_descriptions_data.csv` (or generate later)
-   - `images/` folder
-
-### B) Using **Local Folders**
-- Mirror the structure under `data/` and point your app config to local paths.
-
----
-
-## 3) 🐍 Environment Setup (Virtual Env)
-
-> **Python version:** 3.10.4
-
-### Windows
 ```bash
-cd C:\path\to\project
-python -m venv myenv
-myenv\Scripts\activate
+├─ app.py                          # Streamlit app (UI + orchestration)
+├─ utils.py                        # Helper functions (I/O, encode, retrieve)
+├─ data/
+│  ├─ images/                      # Menu images
+│  ├─ menu_descriptions_data.csv   # Generated/cleaned captions/descriptions
+│  └─ restaurants_menu_data.csv    # Raw menu metadata
+├─ output/
+│  └─ faiss_index/                 # Persisted FAISS index (built at setup)
+├─ multimodal-llm.ipynb            # Notebook (experiments / quick tests)
+├─ Multimodal RAG Presentation.pdf # Slides for overview
+├─ reference-images/               # Support images for README/app
+├─ requirements.txt
+└─ README.md
+
+---
+
+### **For macOS / Linux**
+```bash
+cd /path/to/project
+python3.10 -m venv myenv
+source myenv/bin/activate
 pip install -r requirements.txt
-
-
