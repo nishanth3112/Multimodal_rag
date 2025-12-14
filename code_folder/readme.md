@@ -214,9 +214,6 @@ This guide provides step-by-step instructions for deploying a Streamlit applicat
 - AWS Account
 - Basic knowledge of AWS EC2, SSH, and Streamlit
 
-
-### Deployment Steps
-Refer the following project - [Learn to Build an End-to-End Machine Learning Pipeline - Part 2](https://www.projectpro.io/project-use-case/build-and-deploy-an-end-to-end-machine-learning-pipeline-for-a-classification-model)
 ### 1. Launching EC2 Instance
 
 - Launch an EC2 instance on AWS with the following specifications:
@@ -293,3 +290,4 @@ To terminate the nohup process:
 
 
 ```
+
